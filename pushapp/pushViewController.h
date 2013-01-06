@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface pushViewController : UIViewController
+{
+    UIWebView *webView;
+}
 
 @end

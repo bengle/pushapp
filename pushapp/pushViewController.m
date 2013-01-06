@@ -18,6 +18,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
+    NSURLRequest *request =[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://localhost:3000/faverate"]];
+    [self.view addSubview: webView];
+    [webView loadRequest:request];
 }
 
 - (void)didReceiveMemoryWarning
