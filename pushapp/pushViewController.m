@@ -19,7 +19,7 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     webView = [[UIWebView alloc] initWithFrame:CGRectMake(0, 0, 320, 480)];
-    NSURLRequest *request =[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://localhost:3000/faverate"]];
+    NSURLRequest *request =[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://localhost:3000/msg"]];
     [self.view addSubview: webView];
     [webView loadRequest:request];
 }
