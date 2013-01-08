@@ -18,6 +18,8 @@
 		0EE87DC31699637500BB2141 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EE87DC21699637500BB2141 /* Default-568h@2x.png */; };
 		0EE87DC61699637500BB2141 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0EE87DC41699637500BB2141 /* MainStoryboard.storyboard */; };
 		0EE87DC91699637500BB2141 /* pushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE87DC81699637500BB2141 /* pushViewController.m */; };
+		4A4418E1169C1DB90055EF88 /* 114.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A4418E0169C1DB90055EF88 /* 114.png */; };
+		4A4418E3169C1E280055EF88 /* 113.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A4418E2169C1E280055EF88 /* 113.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		0EE87DC51699637500BB2141 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		0EE87DC71699637500BB2141 /* pushViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pushViewController.h; sourceTree = "<group>"; };
 		0EE87DC81699637500BB2141 /* pushViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pushViewController.m; sourceTree = "<group>"; };
+		4A4418E0169C1DB90055EF88 /* 114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 114.png; sourceTree = "<group>"; };
+		4A4418E2169C1E280055EF88 /* 113.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 113.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 		0EE87D9D1699637500BB2141 = {
 			isa = PBXGroup;
 			children = (
+				4A4418E2169C1E280055EF88 /* 113.png */,
+				4A4418E0169C1DB90055EF88 /* 114.png */,
 				0EE87DB21699637500BB2141 /* pushapp */,
 				0EE87DAB1699637500BB2141 /* Frameworks */,
 				0EE87DA91699637500BB2141 /* Products */,
@@ -110,9 +116,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0EE87DA71699637500BB2141 /* pushapp */ = {
+		0EE87DA71699637500BB2141 /* 推优 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0EE87DCC1699637500BB2141 /* Build configuration list for PBXNativeTarget "pushapp" */;
+			buildConfigurationList = 0EE87DCC1699637500BB2141 /* Build configuration list for PBXNativeTarget "推优" */;
 			buildPhases = (
 				0EE87DA41699637500BB2141 /* Sources */,
 				0EE87DA51699637500BB2141 /* Frameworks */,
@@ -122,7 +128,7 @@
 			);
 			dependencies = (
 			);
-			name = pushapp;
+			name = "推优";
 			productName = pushapp;
 			productReference = 0EE87DA81699637500BB2141 /* pushapp.app */;
 			productType = "com.apple.product-type.application";
@@ -149,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0EE87DA71699637500BB2141 /* pushapp */,
+				0EE87DA71699637500BB2141 /* 推优 */,
 			);
 		};
 /* End PBXProject section */
@@ -164,6 +170,8 @@
 				0EE87DC11699637500BB2141 /* Default@2x.png in Resources */,
 				0EE87DC31699637500BB2141 /* Default-568h@2x.png in Resources */,
 				0EE87DC61699637500BB2141 /* MainStoryboard.storyboard in Resources */,
+				4A4418E1169C1DB90055EF88 /* 114.png in Resources */,
+				4A4418E3169C1E280055EF88 /* 113.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +297,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0EE87DCC1699637500BB2141 /* Build configuration list for PBXNativeTarget "pushapp" */ = {
+		0EE87DCC1699637500BB2141 /* Build configuration list for PBXNativeTarget "推优" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0EE87DCD1699637500BB2141 /* Debug */,
