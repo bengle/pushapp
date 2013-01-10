@@ -23,7 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0EE87DA81699637500BB2141 /* pushapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pushapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EE87DA81699637500BB2141 /* 推优.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "推优.app"; path = pushapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EE87DAC1699637500BB2141 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		0EE87DAE1699637500BB2141 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0EE87DB01699637500BB2141 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -71,7 +71,7 @@
 		0EE87DA91699637500BB2141 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0EE87DA81699637500BB2141 /* pushapp.app */,
+				0EE87DA81699637500BB2141 /* 推优.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,9 +116,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0EE87DA71699637500BB2141 /* 推优 */ = {
+		0EE87DA71699637500BB2141 /* pushapp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0EE87DCC1699637500BB2141 /* Build configuration list for PBXNativeTarget "推优" */;
+			buildConfigurationList = 0EE87DCC1699637500BB2141 /* Build configuration list for PBXNativeTarget "pushapp" */;
 			buildPhases = (
 				0EE87DA41699637500BB2141 /* Sources */,
 				0EE87DA51699637500BB2141 /* Frameworks */,
@@ -128,9 +128,9 @@
 			);
 			dependencies = (
 			);
-			name = "推优";
+			name = pushapp;
 			productName = pushapp;
-			productReference = 0EE87DA81699637500BB2141 /* pushapp.app */;
+			productReference = 0EE87DA81699637500BB2141 /* 推优.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -155,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0EE87DA71699637500BB2141 /* 推优 */,
+				0EE87DA71699637500BB2141 /* pushapp */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +268,7 @@
 				GCC_PREFIX_HEADER = "pushapp/pushapp-Prefix.pch";
 				INFOPLIST_FILE = "pushapp/pushapp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "推优";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -276,11 +276,15 @@
 		0EE87DCE1699637500BB2141 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pushapp/pushapp-Prefix.pch";
 				INFOPLIST_FILE = "pushapp/pushapp-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "推优";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -297,7 +301,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0EE87DCC1699637500BB2141 /* Build configuration list for PBXNativeTarget "推优" */ = {
+		0EE87DCC1699637500BB2141 /* Build configuration list for PBXNativeTarget "pushapp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0EE87DCD1699637500BB2141 /* Debug */,
