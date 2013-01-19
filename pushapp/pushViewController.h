@@ -11,6 +11,7 @@
 @interface pushViewController : UIViewController
 {
     UIWebView *webView;
+    UIImageView *imageView;
 }
 
 @end
