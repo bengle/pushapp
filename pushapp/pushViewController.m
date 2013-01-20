@@ -43,7 +43,7 @@
         imageView.image = image;
     } else {
         UIImage *image = [UIImage imageNamed:@"Default.png"];
-        imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 320, 460)];
+        imageView = [[UIImageView alloc] initWithFrame:CGRectMake(0, -20, 320, 480)];
         //imageView.contentMode=UIViewContentModeRedraw;
         imageView.image = image;
     }
