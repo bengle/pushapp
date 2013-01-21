@@ -31,7 +31,7 @@
     [webView setDelegate:self];
     
     
-    NSURLRequest *request =[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://bengle.ap01.aws.af.cm/"]];
+    NSURLRequest *request =[NSURLRequest requestWithURL:[NSURL URLWithString:@"http://www.taobao.com/go/rgn/ios/proxy.php"]];
     [self.view addSubview: webView];
     
     [webView loadRequest:request];
